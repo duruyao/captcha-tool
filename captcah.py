@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import string
 
-FONT_FILE = 'Fonts/consola.ttf'
+FONT_FILE = './fonts/consola.ttf'
 
 
 class SimpleCaptchaException(Exception):  # Just a simple template that self define Exception class
